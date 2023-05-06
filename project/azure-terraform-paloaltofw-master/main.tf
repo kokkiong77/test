@@ -6,7 +6,7 @@ provider "azurerm" {
 }
 
 ###########################
-# Resource group for all network related resources
+# Resource group for all network related resources 
 ###########################
 
 resource "azurerm_resource_group" "vnet" {
@@ -15,7 +15,7 @@ resource "azurerm_resource_group" "vnet" {
 }
 
 ###########################
-# Create VNET
+# Create VNET test test test test
 ###########################
 
 resource "azurerm_virtual_network" "vnet" {
