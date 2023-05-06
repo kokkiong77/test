@@ -15,7 +15,7 @@ resource "azurerm_resource_group" "vnet" {
 }
 
 ###########################
-# Create VNET test test test test
+# Create VNET testing
 ###########################
 
 resource "azurerm_virtual_network" "vnet" {
